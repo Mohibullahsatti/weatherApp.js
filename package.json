@@ -1,4 +1,4 @@
-{
+{ "homepage": "http://Mohibullahsatti.github.io/weatherApp.js",
   "name": "weather-app-react",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +23,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+
     "start": "react-scripts start",
+    "predepoly":"npm run build",
+    "depoly":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -45,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
