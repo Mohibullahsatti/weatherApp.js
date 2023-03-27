@@ -104,11 +104,20 @@ h1{
   background-color:  rgb(185, 198, 198);
   
 }
- .search-icon {
+.search-button {
   position: absolute;
   right: 40px;
-  top: 12px;
-  font-size: 20px;
+  top: 8px;
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+  border: none;
+  background-color:rgb(176, 187, 187) ;
+}
+ .search-icon {
+ 
+
+  font-size: 18px;
   color: rgb(10, 10, 65);
  
  }
